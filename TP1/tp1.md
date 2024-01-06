@@ -16,3 +16,8 @@ $x_2^2 \geq 0$.
 2. $\texttt{WLOG}$ suppose $\lambda_1 < 0$. Then consider $x = (t, 0)$. We can see that $\lim_{t\rightarrow\infty} f(x) = - \infty$, and $f$ is not bounded.
 
 3. $\nabla f(x^{*}) = \lambda_1 x_1^{*} + \lambda_2 x_2^{*} = 0$. Additionally, when $\lambda \geq 0$, we know that $\nabla^{2} f \geq 0$, so therefore, it can be stated that $x^{*}$ is a global minimizer. In all other cases, $\nabla^{2} f $ is not a SDP matrix, so it is not possible to state whether $x^{*}$ is a global minimizer.
+
+# Exercice 1: Convexité
+
+1. $$f(x) = \frac{1}{2} x \cdot Q x + b \cdot x$$
+$$ f(x) = \frac{1}{2} x \cdot () 
